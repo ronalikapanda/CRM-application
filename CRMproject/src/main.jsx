@@ -12,17 +12,15 @@ import Supports from './components/Supports/Supports.jsx'
 
 
 
-
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout />}>
-      <Route path='Home' element={<Home />} />
+      <Route path='/' element={<Home />} />
       <Route path='Pricing' element={<Pricing />} />
       <Route path='Partners' element={<Partners />} />
       <Route path='Resources' element={<Resources />} />
       <Route path='Supports' element={<Supports />} />
-      
-      
+    
     </Route>
   )
 )
